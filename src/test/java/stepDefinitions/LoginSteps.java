@@ -91,7 +91,9 @@ public class LoginSteps {
 	                {
 	                	 // Assert.assertTrue(true);
 	                    MyAccountPage myaccpage=new MyAccountPage(BaseClass.getDriver());
+	                    
 	                    myaccpage.checklogout();
+	                    
 	                    Assert.assertTrue(true);
 	                    myaccpage.clickLogout();
 	                   // Assert.assertTrue(true);
